@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #111844;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover-div{
+    height: 195px;
+    width: 195px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover-div:hover{
+    cursor: pointer;
+    background-color: black;
+}
+#rock{
+    background-color: #9f60f1;
+    color: white;
+}
+#rock img{
+    filter: brightness(0) invert(1);
+}
+#paper{
+    background-color: #73d9e7;
+    color: white;
+}
+#paper img{
+    filter: brightness(0) invert(1);
+}
+#scissor{
+    background-color: #43e3a6;
+    color: white;
+}
+#scissor img{
+    filter: brightness(0) invert(1);
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.choices{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.score-board{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+#msg {
+    background-color: rgb(31, 29, 29);
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    display: inline-block;
+    width: fit-content;
+    max-width: 90%;
+    text-align: center;
+}
+.score{
+    font-size: 2rem;
+}
+.restart{
+    margin-top: 3rem;
+}
+#restart-btn{
+    height: 2.5rem;
+    width: 6rem;
+    background-color: #43e3a6;
+    border-radius: 1rem;
+    border: none;
+}
